@@ -11,6 +11,7 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 TARGET = TeapotExplosion
 TEMPLATE = app
 
+LIBS    += -lopengl32
 
 SOURCES += main.cpp\
         SenTeapotObservationWidget.cpp \
